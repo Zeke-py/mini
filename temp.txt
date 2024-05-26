@@ -1,0 +1,19 @@
+embed = discord.Embed(
+    title="Title of the Embedded Message",
+    description="Description of the message goes here.",
+    color=discord.Color.blue(),
+)
+embed.set_author(name="Author Name", icon_url="author_icon_url", url="author_url")
+embed.set_thumbnail(url="thumbnail_url")
+embed.set_image(url="image_url")
+embed.add_field(name="Field Name 1", value="Field Value 1", inline=False)
+embed.add_field(name="Field Name 2", value="Field Value 2", inline=True)
+embed.set_footer(text="Footer Text", icon_url="footer_icon_url")
+embed.timestamp = datetime.utcnow()
+
+
+
+    # Start a background task to check mute durations
+    bot.loop.create_task(check_mute_durations())
+
+show_prefix,prefix,avatar,banjoke,image-meme[rankcard,welcomecard,triggered,communism,jail,gay,hitler,aborted,affect,airpods,america,wanted,joke,spank,bed],create_channel,delete_channel,create_embed,info,kick,mute,unmute,ping,list(member list basically),sav (server avatar),servername,unban,
